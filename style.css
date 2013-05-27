@@ -24,3 +24,11 @@ ol.level1 {
 ol.level2 {
     list-style-type: lower-alpha;
 }
+
+p.item {
+    text-decoration: underline;
+}
+
+img {
+    border: 1px #000 solid;
+}
