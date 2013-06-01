@@ -1,0 +1,77 @@
+<html>
+<head>
+    <style type="text/css">
+        * {
+            font-family: Helvetica;
+            font-size: 12pt;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        div { float: left; }
+        
+        div#insurance { margin-left: 50px; }
+        
+        div#submit { height: 200px; }
+        
+        div#submit input {
+            position: relative;
+            top: 30%;
+            margin-left: 30px;
+        }
+        
+        div#header {
+            float: none;
+            clear: right;
+            width: 500px;
+            height: 75px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        
+        h1 { font-size: 16pt; }
+        
+        .row { float: left; clear: both; }
+        .field { text-decoration: underline; color: #00f; }
+        .under { text-decoration: underline; }
+        .rightalign { text-align: right; }
+        
+        div#showmethemoney {
+            clear: left;
+            text-align: right;
+            font-family: courier;
+            margin-right: 20px;
+            margin-top: 50px;
+        }
+        
+        a:visited { color: #0077ff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Company logo here</h1>
+    </div>
+    <br />
+    <div id="showmethemoney">
+        2d Rental Cost: $300<br />
+        Used 1,500 pts: ($150)<br />
+        Insurance: $50<br />
+        GST+PST: $24<br />
+        --------------------------<br />
+        Total: $224
+    </div>
+    <div id="paymentmethods">
+        <div class="row">
+            <a href="">Pay with Credit Card on file (**** **** **** 1234)</a>
+        </div>
+        <div class="row">
+            <div class="rightalign">
+                <span class="under">Use points towards the cost:</span><br /><br />
+                <span>Current balance: 0 points</span><br />
+                <span>Required to pay for the rental: 1,500 points</span><br />
+                <input type="submit" value="Pay with points (0)" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
