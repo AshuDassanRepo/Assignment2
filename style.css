@@ -36,3 +36,5 @@ img {
 }
 
 #content { max-width: 700px; text-align: justify; }
+
+.noborders { border: none; }
