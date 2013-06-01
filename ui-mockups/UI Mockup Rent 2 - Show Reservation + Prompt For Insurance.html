@@ -1,0 +1,81 @@
+<html>
+<head>
+    <style type="text/css">
+        * {
+            font-family: Helvetica;
+            font-size: 12pt;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        div { float: left; }
+        
+        div#insurance { margin-left: 50px; }
+        
+        div#submit { height: 200px; }
+        
+        div#submit input {
+            position: relative;
+            top: 30%;
+            margin-left: 30px;
+        }
+        
+        div#header {
+            float: none;
+            clear: right;
+            width: 500px;
+            height: 75px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        
+        h1 { font-size: 16pt; }
+        
+        .row { float: left; clear: both; }
+        .field { text-decoration: underline; color: #00f; }
+        
+        div#showmethemoney {
+            clear: left;
+            text-align: right;
+            font-family: courier;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Company logo here</h1>
+    </div>
+    <br />
+    <div id="showinfo">
+        <div class="row">
+            <span class="field">Name</span>: John Smith
+        </div>
+        <div class="row">
+            <span class="field">Location</span>: Burnaby (3700 Willingdon Ave)
+        </div>
+        <div class="row">
+            <span class="field">Vehicle Type</span>: Luxury SUV (Lexus)
+        </div>
+        <div class="row">
+            <span class="field">Pickup</span>: June 7th, 2013 @ 6pm
+        </div>
+        <div class="row">
+            <span class="field">Return</span>: June 9th, 2013 @ 5pm
+        </div>
+    </div>
+    <div id="insurance">
+        Insurance Wanted? <input type="checkbox" />
+    </div>
+    <div id="showmethemoney">
+        Rental Cost: $300<br />
+        Insurance: $50<br />
+        GST+PST: $42<br />
+        --------------------------<br />
+        Total: $392
+    </div>
+    <div id="submit">
+        <input type="submit" value="Submit" />
+    </div>
+</body>
+</html>

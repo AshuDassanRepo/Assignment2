@@ -1,0 +1,55 @@
+<html>
+<head>
+    <style type="text/css">
+        * {
+            font-family: Helvetica;
+            font-size: 12pt;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        div { float: left; }
+        
+        div#submit { height: 200px; }
+        
+        div#submit input {
+            position: relative;
+            top: 30%;
+            margin-left: 30px;
+        }
+        
+        div#header {
+            float: none;
+            clear: right;
+            width: 500px;
+            height: 75px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        
+        h1 { font-size: 16pt; }
+        
+        span#error { color: #f00; }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Company logo here</h1>
+    </div>
+    <br />
+    <div>
+        Phone Number:<br />
+        <input type="text" /><br />
+        <br />
+        - OR -<br />
+        <br />
+        Reservation Number:<br />
+        <input type="text" /><br />
+        <br />
+    </div>
+    <div id="submit">
+        <input type="submit" value="Submit" />
+        <span id="error">Could not find a matching reservation</span>
+    </div>
+</body>
+</html>
